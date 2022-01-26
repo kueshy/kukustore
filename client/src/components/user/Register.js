@@ -1,0 +1,93 @@
+import React from "react";
+import {
+  Avatar,
+  Box,
+  Button,
+  Container,
+  Grid,
+  Link,
+  TextField,
+  Typography,
+} from "@mui/material";
+import LockOutlinedIcon from "@mui/icons-material/LockOutlined";
+
+const Copyright = (props) => {
+  return (
+    <Typography
+      variant="body2"
+      color="text.secondary"
+      align="center"
+      {...props}
+    >
+      {"Copyright © "}
+      <Link color="inherit" href="/testapp.com">
+        Your Website
+      </Link>{" "}
+      {new Date().getFullYear()}
+      {"."}
+    </Typography>
+  );
+};
+
+const Register = () => {
+  const handleSubmit = (e) => {
+    e.preventDefault();
+  };
+  return (
+    <Container maxWidth="xs">
+      <Box
+        sx={{
+          marginTop: 8,
+          display: "flex",
+          flexDirection: "column",
+          alignItems: "center",
+        }}
+      >
+        <Typography sx={{ mb: 2 }} variant="h4">
+          kukuapp
+        </Typography>
+        <Avatar sx={{ m: 1, bgcolor: "primary.main" }}>
+          <LockOutlinedIcon />
+        </Avatar>
+        <Typography variant="h5" component="h1">
+          Sign Up
+        </Typography>
+        <Box component="form" noValidate onSubmit={handleSubmit} sx={{ mt: 3 }}>
+          <Grid container spacing={2}>
+            <Grid xs="12" sm="6" item>
+              <TextField label="Your name" fullWidth></TextField>
+            </Grid>
+            <Grid xs="12" sm="6" item>
+              <TextField label="Mobile number" fullWidth></TextField>
+            </Grid>
+            <Grid item xs="12">
+              <TextField label="Email " fullWidth></TextField>
+            </Grid>
+            <Grid item xs="12">
+              <TextField label="Password" fullWidth></TextField>
+            </Grid>
+            <Grid item xs="12">
+              <TextField label="Re-enter password" fullWidth></TextField>
+            </Grid>
+            <Grid item xs="12">
+              <TextField type="file" variant="filled" fullWidth></TextField>
+            </Grid>
+          </Grid>
+          <Button variant="contained" fullWidth sx={{ mt: 3, mb: 2 }}>
+            Sign up
+          </Button>
+          <Grid container justifyContent="flex-end">
+            <Grid item>
+              <Link href="/login" sx={{ cursor: "pointer" }} variant="body2">
+                Already have an account?Sign in
+              </Link>
+            </Grid>
+          </Grid>
+        </Box>
+      </Box>
+      <Copyright sx={{ mt: 8, mb: 4 }} />
+    </Container>
+  );
+};
+
+export default Register;

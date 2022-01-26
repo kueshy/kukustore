@@ -1,0 +1,75 @@
+[
+    {
+        "name":"Kienyeji 5-9 Months Rooster",
+        "price": 1500,
+        "image":"https://image.shutterstock.com/image-photo/three-brown-chicken-isolated-on-600w-626461334.jpg",
+        "stock":50,
+        "seller":"Elias",
+        "category":"Kienyeji",
+        "description":"Despite the name, the Cornish game hen is not a game bird. The name is also a misnomer because both males and females are served as Cornish game hens, meaning that many are not actually hens. Bred to develop a large breast over a short period of time"
+    },
+    {
+        "name":"Improved Kienyeji 7-9 Months Cock",
+        "price": 1200,
+        "image":"https://image.shutterstock.com/image-photo/chicken-model-decorated-garden-summer-600w-1128428603.jpg",
+        "stock":10,
+        "seller":"Elias",
+        "category":"Improved kienyeji",
+        "description":"Despite the name, the Cornish game hen is not a game bird. The name is also a misnomer because both males and females are served as Cornish game hens, meaning that many are not actually hens. Bred to develop a large breast over a short period of time"
+    },
+    {
+        "name":"Grade 16-18 Months Hen",
+        "price": 1500,
+        "image":"https://image.shutterstock.com/image-photo/chicken-sunset-600w-752120836.jpg",
+        "url":"https://ae01.alicdn.com/kf/H0ff687906579488fabd82b47e79732ddj/WiWU-Laptop-Bag-17-3-16-15-6-14-2-13-Waterproof-Laptop-Bag-for-MacBook.jpg",
+        "stock":10,
+        "seller":"Elias",
+        "category":"Grade",
+        "description":"Despite the name, the Cornish game hen is not a game bird. The name is also a misnomer because both males and females are served as Cornish game hens, meaning that many are not actually hens. Bred to develop a large breast over a short period of time"
+    },
+    {
+        "name":"Kienyeji 5-9 Months Rooster",
+        "price": 800,
+        "image":"https://ae01.alicdn.com/kf/H0ff687906579488fabd82b47e79732ddj/WiWU-Laptop-Bag-17-3-16-15-6-14-2-13-Waterproof-Laptop-Bag-for-MacBook.jpg",
+        "stock":50,
+        "seller":"Elias",
+        "category":"Kienyeji",
+        "description":"Despite the name, the Cornish game hen is not a game bird. The name is also a misnomer because both males and females are served as Cornish game hens, meaning that many are not actually hens. Bred to develop a large breast over a short period of time"
+    },
+    {
+        "name":"Kienyeji 5-9 Months Rooster",
+        "price": 800,
+        "image":"https://image.shutterstock.com/image-photo/chicken-sunset-600w-752120836.jpg",
+        "stock":50,
+        "seller":"Elias",
+        "category":"Kienyeji",
+        "description":"Despite the name, the Cornish game hen is not a game bird. The name is also a misnomer because both males and females are served as Cornish game hens, meaning that many are not actually hens. Bred to develop a large breast over a short period of time"
+    },
+    {
+        "name":"Kienyeji 5-9 Months Rooster",
+        "price": 800,
+        "image":"https://image.shutterstock.com/image-photo/girl-holding-chicken-600w-796825678.jpg",
+        "stock":50,
+        "seller":"Elias",
+        "category":"Improved Kienyeji",
+        "description":"Despite the name, the Cornish game hen is not a game bird. The name is also a misnomer because both males and females are served as Cornish game hens, meaning that many are not actually hens. Bred to develop a large breast over a short period of time"
+    },
+    {
+        "name":"Kienyeji 5-9 Months Rooster",
+        "price": 800,
+        "image":"https://image.shutterstock.com/image-photo/brown-rooster-red-comb-black-600w-474164527.jpg",
+        "stock":50,
+        "seller":"Elias",
+        "category":"Grade",
+        "description":"Despite the name, the Cornish game hen is not a game bird. The name is also a misnomer because both males and females are served as Cornish game hens, meaning that many are not actually hens. Bred to develop a large breast over a short period of time"
+    },
+    {
+        "name":"Kienyeji 5-9 Months Rooster",
+        "price": 800,
+        "image":"https://image.shutterstock.com/image-photo/brown-rooster-red-comb-black-600w-474164527.jpg",
+        "stock":50,
+        "seller":"Elias",
+        "category":"Grade",
+        "description":"Despite the name, the Cornish game hen is not a game bird. The name is also a misnomer because both males and females are served as Cornish game hens, meaning that many are not actually hens. Bred to develop a large breast over a short period of time"
+    }
+    ]
